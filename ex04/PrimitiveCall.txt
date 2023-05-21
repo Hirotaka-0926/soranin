@@ -1,0 +1,3 @@
+In function movePoint, variable x and y are copied
+by function test. In function movePoint, the value is changed.
+But in function test, value is no change.

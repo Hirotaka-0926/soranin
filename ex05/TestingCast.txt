@@ -1,0 +1,9 @@
+The 6 operation is implicit casts.
+
+The 3 operation is expicit casts.
+
+object of type MovingPoint inherit object of type Point. 
+So object of type MovingPoint treatd as a object of type of Point.
+
+In operation 3, If we do implict casting, the programm make error.
+Because o3 is not know to the compiler to be a MovingPoint.

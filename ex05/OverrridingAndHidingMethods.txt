@@ -1,0 +1,3 @@
+Overrriding methods is "public void methodTwo(int i)"
+Hiding methods is "public static void methodFour(int i)"
+Other methods bring compile error

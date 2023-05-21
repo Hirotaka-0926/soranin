@@ -1,0 +1,6 @@
+Point class has two fields.
+MovingPoint class has four fields.
+Point class has two methods.
+MovingPoint class has four methods.
+int x and int y are same mean in each classes.
+method getDistance and print have similar behavior.

@@ -1,0 +1,10 @@
+I can design inherited classes.
+Super class is Point class. Sub class is MovingPoint class.
+Point class has two fields.
+MovingPoint class has two fields.
+Point class has two methods.
+MovingPoint class has three methods.
+If I change Point class, MovingPoint class is changed too.
+operation at the end of TestObjectApplication can execute.
+Because MovingPoint class inherited Point class.
+ So MovingPoint class can be treated as a Point class.

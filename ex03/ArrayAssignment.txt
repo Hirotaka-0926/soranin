@@ -1,0 +1,3 @@
+if a and b are array and variable a equal variable b,
+variable a and b have same referent.
+So if array a's first number is changed, array b's first number is changed too.

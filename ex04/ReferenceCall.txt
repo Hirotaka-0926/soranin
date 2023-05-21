@@ -1,0 +1,19 @@
+The result is "{(x, y)=(100, 120)}"
+if(p=new Point(0, 0)), the result is same.
+Process:
+in class ReferenceCall , new point(8, 5)
+1,Point.x=8, Point.y=5
+(in class ReferenceCall , new point(8, 5))
+2, Point.x=100,Point.y=120
+(in class ReferenceCall, movePoint(point))
+3, Result is (100,120)
+
+The case of (p=new Point(0, 0);)
+The result is {(x, y)=(100, 120)}
+Process:
+in class ReferenceCall, new point(0, 0)
+1,Point.x=0,  Point.y=5
+(in class ReferenceCall, new point(0, 0))
+2,Point.x=100, Point.y=120
+(in class ReferenceCall, movePoint(point))
+3,Result is (100, 120)
